@@ -1,11 +1,70 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+
+    <style>
+        div {
+            color: white;
+            background-color: blue;}
+        .alert-text {
+             color: red;
+             font-size: 20px;}
+        #title {
+             background-color: red;
+             color: white;}     
+             .subsection.header {
+             color: red;
+                }
+
+            .subsection#preview {
+             color: blue;
+            }
+            /* styles.css */
+
+            div {
+            color: white;
+            background-color: black;
+            }
+
+            p {
+            color: red;
+            }
+
+    </style>
+
+    <h1 id="title">My Awesome 90's Page</h1>
+    <div class="alert-text">Please agree to our terms of service.</div>
+    <div>Hello, World!</div>
+    <div>Hello again!</div>
+    <p>Hi.. </p>
+    <div>Okay, bye.</div>
+
+    <div>
+        <div class="subsection header">Latest Posts</div>
+        <p class="subsection" id="preview">
+          This is where a preview for a post might go.
+        </p>
+      </div>
+
+      <div class="ancestor">
+        <!-- A -->
+        <div class="contents">
+          <!-- B -->
+          <div class="contents"><!-- C --></div>
+        </div>
+      </div>
+      
+      <div class="contents"><!-- D --></div>
+
+      <!-- index.html -->
+
+    <head>
+        <link rel="stylesheet" href="styles.css">
+     </head>
+  
 </html>
